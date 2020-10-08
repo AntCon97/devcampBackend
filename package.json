@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "devcamp backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Anthony",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
